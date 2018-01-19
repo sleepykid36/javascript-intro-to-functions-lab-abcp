@@ -18,9 +18,9 @@ it('calls console.log() its one argument in all caps', function() {
     console.log.restore()
   })
 //
+
 function logShout(string) {
-  if(string.toUpperCase === string)
-    console.log()
+  spyOn(string, string.toUpperCase)
   }
 
 function logWhisper(string) {
