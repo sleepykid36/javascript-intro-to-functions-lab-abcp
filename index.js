@@ -21,7 +21,7 @@ it('calls console.log() its one argument in all caps', function() {
 function logShout(string) {
   spy = string.toUpperCase
   spyOn(spy, 'HELLO')
-  console.log(logShout())
+  console.log()
   }
 
 function logWhisper(string) {
