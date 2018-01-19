@@ -1,4 +1,5 @@
 function shout(string) {
+  spy = expect.spyOn(console, 'log').andCallThrough()
   return string.toUpperCase()
 }
 
